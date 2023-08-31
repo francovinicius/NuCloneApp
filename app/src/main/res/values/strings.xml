@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">NuBankCloneApp</string>
 
-    <string name="txt_nome_usuario">Ola, Vinicius</string>
+    <string name="txt_nome_usuario">Ola,  Vinicius</string>
 </resources>
