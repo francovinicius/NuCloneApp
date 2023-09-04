@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="@color/white">
+
+    <View
+        android:id="@+id/containerCirculoDois"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/container_circulo_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/icPagamento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_pix"
+        app:layout_constraintBottom_toBottomOf="@+id/containerCirculoDois"
+        app:layout_constraintEnd_toEndOf="@+id/containerCirculoDois"
+        app:layout_constraintStart_toStartOf="@+id/containerCirculoDois"
+        app:layout_constraintTop_toTopOf="@+id/containerCirculoDois" />
+
+    <TextView
+        android:id="@+id/txt_Titulo_Pagamento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Area do pix"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/containerCirculoDois" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
