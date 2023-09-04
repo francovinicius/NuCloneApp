@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -35,16 +36,16 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/txt_nome_usuario"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/containerCirculo"
-            android:layout_marginTop="30dp"
             android:layout_marginStart="20dp"
-            android:textSize="18sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:text="@string/txt_nome_usuario"
             android:textColor="#FFFFFF"
+            android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginBottom="30dp"/>
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/containerCirculo" />
 
         <ImageView
             android:id="@+id/icEye"
@@ -64,8 +65,8 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="40dp"
             android:src="@drawable/ic_quest"
-            app:layout_constraintStart_toEndOf="@+id/icEye"
             app:layout_constraintEnd_toStartOf="@+id/icAdd"
+            app:layout_constraintStart_toEndOf="@+id/icEye"
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
@@ -81,5 +82,15 @@
             app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/txt_saldo_conta"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
 
 </LinearLayout>
