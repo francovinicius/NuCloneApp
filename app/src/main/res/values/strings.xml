@@ -4,4 +4,9 @@
     <string name="txt_nome_usuario">Ola,  Vinicius</string>
     <string name="txt_saldo_conta">Conta \n\n R$ 90503,95</string>
     <string name="txt_cartao">Meus Cartões</string>
+    <string name="txt_cartao_credito">Cartão de Crédito</string>
+    <string name="txt_fatura_atual">Fatura Atual</string>
+    <string name="txt_fatura_valor">R$ 103,18</string>
+    <string name="txt_limite_disponivel">Limite Disponível de R$ 7035,88</string>
+    <string name="txt_parcelamento">Parcelar Compras</string>
 </resources>
