@@ -1,5 +1,4 @@
-﻿# NuCloneApp
-![Uploading NuApp.svg…]()
+![Uploading NuApp.svg…](https://github.com/francovinicius/NuCloneApp/blob/main/NuApp.svg)
 
 O Nu App é um projeto desenvolvido em Kotlin, com o objetivo de refazer o layout do aplicativo Nu Bank. Este projeto foi criado para aprimorar nossas habilidades em Recycler View, Linear Layout, e outras técnicas de desenvolvimento Android.
 
